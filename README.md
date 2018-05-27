@@ -3,7 +3,7 @@ This was dedicated for the discord server called The Lab Rats, its used to help 
 # For Beginners 
 if you have no knowledge of Python, head to the Getting_Started_With_Python Folder
 
-ifyou have knowledge, head to the Async folder and choose your type you are writing the bot, The followigs are:
+ifyou have knowledge, head to the Async folder and choose your type you are writing the bot, The followings are:
 
 on_message event
 
