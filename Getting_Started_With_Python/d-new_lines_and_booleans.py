@@ -2,7 +2,8 @@
 "Wait so what are Booleans?"
 booleans are a type of "state" we can say, so the program tells whenever the value is True or not
 Here we will get into the shell and do our comparisons:
->>> 1==1                                           True
+>>> 1==1                                           
+True
 >>> #now lets return a false one
 ...
 >>> 1!=1
