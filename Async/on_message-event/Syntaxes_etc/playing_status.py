@@ -11,7 +11,7 @@ async def on_ready():
 @client.event
 async def on_ready():, DO NOT ADD IT AGAIN!!
 alright here let's make it!'''
-@@client.event
+@client.event
 async def on_ready():
     print("Bot Is Ready!")
     await client.change_presence(game=discord.Game(name="With Players!", url="https://twitch.tv/T", type=1)) #the url is needen so it can show the actual streaming status, if not putten, it will show a playing on PC and when you click on profile, it will show streaming, so in conclusion, adding url makes it show a streaming status!
