@@ -1,5 +1,5 @@
 # discord.py-for-beginners
-This was dedicated for the discord server called The Lab Rats, its used to help for beginners!
+This was dedicated for the discord server called The Labs, its used to help for beginners!
 # For Beginners 
 if you have no knowledge of Python, head to the Getting_Started_With_Python Folder
 
