@@ -33,4 +33,4 @@ if num == 8:
     if True:
         print("Still will not be anyway")
   
-'''In the next lesson we wil discuss about elif and else statements which elif is alsmost same as if but it usew in a different way and else is used as i said in first note!'''
+'''In the next lesson we wil discuss about elif and else statements which elif is almost same as if but its used in a different way and else is used as i said in first note!'''
