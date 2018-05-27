@@ -1,9 +1,9 @@
 '''Lets Start with the basics
 So First what is Python?:
-Python Is A Programming Language that allows you to make alot of things, like python can be used as a newtworking purpose, make games, make simple codes and many more.
+Python Is A Programming Language that allows you to make alot of things, like python can be used as a networking purpose, make games, make simple codes and many more.
 Modules also lets help programmers code even better python codes with it!
 =====================================================
-Useful thing about python is the syntax, its so simple even an average progeammer will understand
+Useful thing about python is the syntax, its so simple even an average programmer will understand
 =====================================================
 Let's get into a demonstration shall we!
 ========================================'''
