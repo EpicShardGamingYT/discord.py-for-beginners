@@ -7,7 +7,7 @@ def func_name():
 #and to call a function:
 func_name()
 
-#now lets take this examples:
+#now lets take this example: 
 def cat():
     cat = "meow"
     print(cat)
