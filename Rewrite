@@ -1,0 +1,28 @@
+import discord
+from discord.ext.commands import Bot
+from discord.ext import commands
+import asyncio
+
+client = commands.Bot(command_prefix="prefix_goes_here!")
+
+@client.event
+async def on_ready():
+    print("Bot Is Ready!")
+    await bot.change_presence(activity=discord.Game(name="Whatever you want to type"))
+
+
+@client.event
+async def on_message(message):
+    if ctx.message.content == "ping":
+        await ctx.channel.send(message.channel, "Pong!")
+    if ctx.content.startswith("cookie"):
+        await ctx.channel.send(message.channel, ":cookie:")
+    if ctx.content.upper().startswith("COMMAND"):
+        await ctx.channel.send(message.channel, "what?")
+    if ctx.content.upper().startswith("HELLO"):
+        embed1 = discord.Embed(title="Message Bot", description=f"Hello {message.author.name}, How are you?", color=message.author.color)
+        embed1.set_thumbnail(url=message.author.avatar_url)
+        embed1.set_footer(text="this was introduced for an example embed!")
+        await ctx.channel.send(message.channel, embed=embed1)
+
+client.run("token")
