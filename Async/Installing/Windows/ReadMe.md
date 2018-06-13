@@ -1,6 +1,7 @@
 # Automatic installation
 
 You can execute the `install.bat`
+also note while running it, if you get a smart screen popup, mkae sure to click `More Info` then `Run Anyway` as long as you can trust the program, and see its source and etc.
 
 # Manual Installation
 
