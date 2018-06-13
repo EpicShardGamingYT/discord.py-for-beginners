@@ -1,6 +1,6 @@
 
 
-'''Activity is a RP for your bot like Playing,Streaming,Listening and Watching Status'''
+'''Activity is a status for your bot like Playing,Streaming,Listening and Watching Status'''
 
 '''Okay so there's a difference between on_ready and commands using Activity'''
 
