@@ -1,3 +1,3 @@
 # Coming Soon
 
-Due to the exams i have these days, i can't make this folder, however it will be done soon!
+Im sorry for delay of the repo, yes i ahve changed things, maybe i will be done soon with discord.ext.commands due to how long it will be!
