@@ -7,7 +7,7 @@
 '''You can use on_ready event like this'''
 
 import discord
-for discord.ext import commands
+from discord.ext import commands
 import asyncio
 
 @bot.event
@@ -32,25 +32,25 @@ async def on_ready():
   
 @bot.command()
 @commands.is_owner()
-async def play(ctx,*game :str):
+async def play(ctx, *, game :str):
     """Playing status for the bot {Bot-Owner Only}."""
     print(*game)
     await bot.change_presence(activity=discord.Game(name="whatever"))
   
 @bot.command()
 @commands.is_owner()
-async def stream(ctx,* , title : str):
+async def stream(ctx, *, title : str):
     """Streaming status for the bot {Bot-Owner Only}."""
     await bot.change_presence(activity=discord.Streaming(name="whatever", url="https://twitch.tv/discordapp"))
     
 @bot.command()
 @commands.is_owner()
-async def listen(ctx,* ,title : str):
+async def listen(ctx, *, title : str):
      """Listening status for the bot {Bot-Owner Only}."""
      await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="whatever"))
 
 @bot.command()
 @commands.is_owner()
-async def watch(ctx,* ,title : str):
+async def watch(ctx, *, title : str):
      """Watching status for the bot {Bot-Owner Only}."""
      await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="whatever"))
