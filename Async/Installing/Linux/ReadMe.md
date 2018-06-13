@@ -1,7 +1,7 @@
 # For Ubuntu:
 
 ## Automatic installation
-run `*.sh`
+run `ubuntu-install.sh`
 
 ## Manual Installation:
 install python3 by doing:
