@@ -8,7 +8,11 @@ client = discord.Client()
 
 @bot.event
 async def on_ready():
-  print('My son has been awaken from dead')
+    print('Logged in as')
+    print(bot.user.name)
+    print(bot.user.id)
+    print('------')
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="Servers or whatever you want"))
 
 @bot.command()
 async def cookie(ctx):
