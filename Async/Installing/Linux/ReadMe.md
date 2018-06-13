@@ -36,5 +36,6 @@ if you have done it,
 
 install discord.py with `pip install discord.py` or `pip3 install discord.py`
 
+then to install an editor if cases the linux doesnt have a default like ubuntu:
 
-
+`apt-get install nano`
