@@ -1,24 +1,38 @@
-## For Ubuntu:
+# For Ubuntu:
 
-# Manual Installation:
+## Automatic installation
+run `*.sh`
 
-simply install python 3.6
+## Manual Installation:
+install python3 by doing:
 
+`sudo apt install python3`
 
-then You simply type in `pip3 install discord.py`
+enter your password the wait!
 
-then it should install!
+once its done, do:
 
+`sudo apt install python3-pip`
 
-## For Other Linuxes:
+wait for it agin, once its done write:
 
-# Manual installation
+`pip3 install discord.py`
 
-So either run `apt-get install python3` `or apt-get install python` to get python 3.6, if it fails, im not an expert at linux :(!
+and you are done!
 
+for a terminal editor, try nano
 
-if you have done it
-,
+`sudo apt install nano`
+
+or use ubuntu's default editor
+
+# For Other Linuxes:
+
+## Manual installation
+
+So either run `apt-get install python3` `or apt-get install python` to get python 3.5+, if it fails, im not an expert at linux :(!
+
+if you have done it,
 
 install discord.py with `pip install discord.py` or `pip3 install discord.py`
 
